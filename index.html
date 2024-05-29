@@ -35,9 +35,8 @@
                                     <li><a href="#">CONSTRUCTION CONSULTANCY</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">HOME LOAN</a></li>
                             <li><a href="#">NRB SUPPORT</a></li>
-                            <li><a href="#">NUMBER</a></li>
+                            <li><a href="#">+88 01400-281428</a></li>
                         </ul>
                         <ul class="nav navbar-nav">
                             <li>
@@ -73,24 +72,40 @@
                         <label for="property-type">LOOKING FOR</label>
                         <select id="property-type">
                             <option>Property Type</option>
+                            <option value="Apartment">Apartment</option>
+                            <option value="Condo">Condo</option>
+                            <option value="Lot">Lot</option>
+                            <option value="Office">Office</option>
+                            <option value="Shop">Shop</option>
                         </select>
                     </div>
                     <div class="flex-item">
                         <label for="location">LOCATION</label>
                         <select id="location">
-                            <option>All Cities</option>
+                            <option>Jashore City</option>
+                            <option value="Dhormotala">Dhormotala</option>
+                            <option value="Monihar">Monihar</option>
+                            <option value="JDoratana">Doratana</option>
                         </select>
                     </div>
                     <div class="flex-item">
                         <label for="property-size">PROPERTY SIZE</label>
                         <select id="property-size">
                             <option>Bedrooms</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
                         </select>
                     </div>
                     <div class="flex-item">
                         <label for="budget">YOUR BUDGET</label>
                         <select id="budget">
                             <option>Max. Price</option>
+                            <option value="Any">Any</option>
+                            <option value="TK1,000">TK1,000</option>
+                            <option value="TK2,000">TK2,000</option>
+                            <option value="TK3,000">TK3,000</option>
                         </select>
                     </div>
                 </div>
@@ -347,8 +362,321 @@
 
 
 
+<body>
+    <div class="container_custom-design">
+        <h1>You Can Create Custom Designs With ibrahim hossian</h1>
+        <p>ibrahim household provide interior, exterior and building construction consulting to make your dream home for the future.</p>
+        <div class="properties_custom-design">
+            <div class="property_custom-design">
+                <img src="img/living/custom-design 2.jpg" alt="Apartment">
+                <div class="details">
+                    <span>17 Properties</span>
+                    <h2>Apartment</h2>
+                </div>
+            </div>
+            <div class="property_custom-design">
+                <img src="img/living/coustom_living-1.jpg" alt="Office">
+                <div class="details">
+                    <span>3 Properties</span>
+                    <h2>Office</h2>
+                </div>
+            </div>
+            <div class="property_custom-design">
+                <img src="img/living/custom-design 3.jpg" alt="Studio">
+                <div class="details">
+                    <span>7 Properties</span>
+                    <h2>Studio</h2>
+                </div>
+            </div>
+            <div class="property_custom-design">
+                <img src="img/living/custom-design 4.jpg" alt="Single Family Home">
+                <div class="details">
+                    <span>10 Properties</span>
+                    <h2>Single Family Home</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="inquiry-container">
+        <div class="inquiry-content">
+            <div class="text-content">
+                <h1>Get your dream homes modern & beautifully designed and enjoy life with ibrahim household</h1>
+                <p>You can consult us on any property-related matter, which will facilitate your property buying, selling, renting, and exchange needs. And also all kinds of construction solutions including interior and exterior design of commercial and residential.</p>
+            </div>
+            <div class="inquiry-form">
+                <h2>Inquiry Form</h2>
+                <p>You can inquire any kind of information related to the property. Feel free to fill up the form and click the submit button.</p>
+                <p><small>*All client information is protected and encrypted</small></p>
+                <form id="inquiryForm">
+                    <label for="inquiryType">Please Select Inquiry Type</label>
+                    <select id="inquiryType" required>
+                        <option value="Select">Select</option>
+                        <option value="Sell">Sell</option>
+                        <option value="">Rent</option>
+                        <option value="Exchange">Exchange</option>
+                        <!-- Add more options as needed -->
+                    </select>
+
+                    <h3>Information</h3>
+                    <input type="text" id="firstName" placeholder="First Name" required>
+                    <input type="text" id="lastName" placeholder="Last Name" required>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <input type="tel" id="mobile" placeholder="Mobile" required>
+
+                    <h3>Location</h3>
+                    <input type="text" id="city" placeholder="Select City" required>
+                    <input type="text" id="area" placeholder="Select Area" required>
+                    <input type="text" id="state" placeholder="Select State" required>
+                    <input type="text" id="country" placeholder="Select Country" required>
+                    <input type="text" id="zipCode" placeholder="Zip Code" required>
+
+                    <h3>Property</h3>
+                    <select id="propertyType" required>
+                        <option value="">Select type</option>
+                        <option value="Lot">Lot</option>
+                        <option value="Office">Office</option>
+                        <option value="Shop">Shop</option>
+                        <option value="Apartment">Apartment</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                    <input type="number" id="maxPrice" placeholder="Max price" required>
+                    <input type="number" id="minSize" placeholder="Minimum size (Sq Ft)" required>
+                    <input type="number" id="numBeds" placeholder="Number of beds" required>
+                    <input type="number" id="numBaths" placeholder="Number of baths" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Message" required></textarea>
+
+                    <label for="gdpr">
+                        <input type="checkbox" id="gdpr" required>
+                        I consent to having this website store my submitted information
+                    </label>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <section class="property-category">
+        <h1>FIND YOUR SELECTED PROPERTY BY CATEGORY</h1>
+        <h4>You can find the right property of your selected choice at ibrahim household</h4>
+        <div class="property-grid">
+            <div class="property-item">
+                <img src="img/living/coustom_living-1.jpg" alt="Apartment">
+                <div class="property-info">
+                    <h3>APARTMENT</h3>
+                    <p>17 PROPERTIES</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="img/living/custom-design 2.jpg" alt="Single Family Home">
+                <div class="property-info">
+                    <h3>SINGLE FAMILY HOME</h3>
+                    <p>10 PROPERTIES</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="img/living/coustom_living-1.jpg" alt="Villa">
+                <div class="property-info">
+                    <h3>VILLA</h3>
+                    <p>10 PROPERTIES</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="img/living/custom-design 2.jpg" alt="Studio">
+                <div class="property-info">
+                    <h3>STUDIO</h3>
+                    <p>7 PROPERTIES</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="img/living/property-category 1.jpg" alt="Office">
+                <div class="property-info">
+                    <h3>OFFICE</h3>
+                    <p>3 PROPERTIES</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="img/living/property-category 2.jpg" alt="Shop">
+                <div class="property-info">
+                    <h3>SHOP</h3>
+                    <p>3 PROPERTIES</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="img/living/property-category 3.jpg" alt="Condo">
+                <div class="property-info">
+                    <h3>CONDO</h3>
+                    <p>1 PROPERTY</p>
+                </div>
+            </div>
+            <div class="property-item">
+                <img src="img/living/property-category 1.jpg" alt="Lot">
+                <div class="property-info">
+                    <h3>LOT</h3>
+                    <p>1 PROPERTY</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="agents-section">
+        <h1>MEET OUR AGENTS</h1>
+        <p>ibrahim household representatives are always available to dedicatedly assist you with any property related matters.</p>
+        <div class="agents-grid">
+            <div class="agent-card">
+                <img src="img/body/agent-dp/ibrahim.jpg" alt="Ibrahim hossian">
+                <h2>Ibrahim Hossian</h2>
+                <h3>Manager - Marketing, ibrahim.com</h3>
+                <p>ibrahim.com Online Brokerage is your digital doorway to the real estate world. As an...</p>
+                <a href="#">View Profile</a>
+            </div>
+            <div class="agent-card">
+                <img src="img/body/agent-dp/masud.jpg" alt="Masud Parvez Riam">
+                <h2>Masud Parvez Riam</h2>
+                <h3>Teachnical Department - Head, Ibrahim household</h3>
+                <p>ibrahim.com Online Brokerage is your digital doorway to the real estate world. As an...</p>
+                <a href="#">View Profile</a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="testimonials-section">
+        <h1>TESTIMONIALS</h1>
+        <p>You can see and read what our happy customers are commenting about ibrahim household</p>
+        <div class="testimonial-carousel">
+            <div class="testimonial">
+                <div class="quote">❝</div>
+                <p>Houzez is the real deal! Houzez is worth much more than I paid. Really good. Houzez's got you covered.</p>
+                <img src="img/body/testimonial-dp/men 1.jpg" alt="Mike Stooles">
+                <div class="author">
+                    <strong>Mike Stooles</strong>
+                    <span>Marketing Manager, Envato</span>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="quote">❝</div>
+                <p>Houzez is the next killer theme. I strongly recommend Houzez to everyone interested in running a successful online business!</p>
+                <img src="img/body/testimonial-dp/men 2.jpg" alt="Kathleen Peterson">
+                <div class="author">
+                    <strong>Kathleen Peterson</strong>
+                    <span>Sales Manager, Envato</span>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="quote">❝</div>
+                <p>Great work on your Houzez. I like it more and more each day because it makes my life easier and lot profitable.</p>
+                <img src="img/body/testimonial-dp/lady 1.jpg" alt="Kenneth Sandoval">
+                <div class="author">
+                    <strong>Kenneth Sandoval</strong>
+                    <span>Realtor, Envato</span>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="quote">❝</div>
+                <p>Great work on your Houzez. I like it more and more each day because it makes my life easier and lot profitable.</p>
+                <img src="img/body/testimonial-dp/men 3.jpg" alt="Kenneth Sandoval">
+                <div class="author">
+                    <strong>Jurica Koletić</strong>
+                    <span>Realtor, Envato</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="video-tour">
+        <h2>VIDEO TOUR</h2>
+        <p>You can watch our interior design, exterior design, product listings & reviews and customer testimonials.</p>
+        <div class="video-container">
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/x21rFq7nvFM?si=b9ycJazK6Yt8fpFb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iY7MQb4fMB4?si=eQqh9nD4WK-MLSSD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/e0qNKnwV40E?si=Ua2VAkgY9PoX4t45" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <img src="img/body/logo.png" alt="Logo" class="logo" width="100px" height="75px">
+                <p>
+                    ibrahim household – Dwelling House is an innovative real estate marketplace which is here convenient and tech-savvy platform to simplify your property buying, selling, renting and exchanging needs. And we also offers consultancy on building your dream home the right way to ensure your lifestyle.
+                </p>
+                <a href="#" class="readmore">Readmore</a>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Apon mor, Dhormotola, Jashore Sador, Jashore, Bangladesh.</p>
+                <p>+88 01400-281428</p>
+                <p>Ibrahim Hossian</p>
+                <a href="#" class="contact-us">Contact us</a>
+            </div>
+            <!-- <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">Submit</button>
+                </form>
+                <p>Subscribe to get daily new offers and updated news.</p>
+                <div class="app-links">
+                    <img src="appstore.png" alt="App Store">
+                    <img src="googleplay.png" alt="Google Play">
+                </div>
+                <div class="secured">
+                    <img src="sectigo.png" alt="Sectigo">
+                </div>
+            </div> -->
+        </div>
+        <div class="footer-bottom">
+            <p>© bosotbari - All rights reserved</p>
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+                <a href="#">FAQs</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><img src="img/body/logo/facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="img/body/logo/whatsapp.svg" alt="WhatsApp"></a>
+                <a href="#"><img src="img/body/logo/linkedin.svg" alt="LinkedIn"></a>
+                <a href="#"><img src="img/body/logo/instagram.svg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
 
     
+    <script src="script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
